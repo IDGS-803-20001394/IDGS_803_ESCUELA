@@ -1,0 +1,27 @@
+{% extends "layout.html" %} 
+ 
+ {% block content%}
+   <div class="container">
+    <div class="row">
+    
+        <h1 class="text-center">SISTEMA DE CONTROL ESCOLAR</h1>
+        <br/>
+        <center>
+          <img src="../static/img/UTLeo.png" alt="Responsive image" width="200px">
+        </center>
+        <br/>
+        <div class="col-6 text-center">
+          <a href="/ABCAlumnos" class="btn btn-lg btn-info">
+            <h3>SECCIÓN DE ALUMNOS</h3>
+          </a>
+        </div>
+        <br/>
+        <div class="col-6 text-center">
+        <a href="/ABCMaestros" class="btn btn-lg btn-info">
+          <h3>SECCIÓN DE MAESTROS</h3>
+        </a>
+        </div>
+    </div>
+   </div>
+ 
+{% endblock %}
